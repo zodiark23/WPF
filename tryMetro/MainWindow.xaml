@@ -1,0 +1,143 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" mc:Ignorable="d" x:Class="tryMetro.MainWindow"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Topmost="True">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="32*"/>
+			<ColumnDefinition Width="43*"/>
+		</Grid.ColumnDefinitions>
+		
+		<PasswordBox HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="34" Margin="13,192,0,0" VerticalAlignment="Top" Width="229" Grid.Column="1"/>
+		<TextBox x:Name="username" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="34" Margin="13,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" Grid.Column="1"/>
+		<Label Content="DBP SERVICE CORPORATION"  HorizontalAlignment="Left" Margin="13,64.04,0,0" VerticalAlignment="Top" Width="229" Opacity="0.85" Foreground="#FF747474" FontFamily="/tryMetro;component/Fonts/#Segoe UI" Height="39.96" FontSize="16" Grid.Column="1"/>
+		<Button x:Name="CloseButton" Content="x" HorizontalContentAlignment="Center" Click="Button_Exit" Margin="0,0,0,317" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF514141" FontSize="20" Width="30" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Right" FontWeight="Bold" >
+			<Button.Template>
+				<ControlTemplate TargetType="{x:Type Button}">
+					<ContentPresenter Content="{TemplateBinding Content}"/>
+				</ControlTemplate>
+			</Button.Template>
+		</Button>
+		<Canvas Margin="22.083,200.417,77.75,81.373" Opacity="0.88">
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="44.376" Canvas.Top="0.083"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="55.751" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="66.834" Canvas.Top="0.083"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="78.376" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="89.751" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="100.834" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="56.251" Canvas.Top="46.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="67.334" Canvas.Top="31.083"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="78.876" Canvas.Top="46.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="22.917" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="45.375" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="34.292" Canvas.Top="46.463"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="22.417"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Top="0.08"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="11.542" Canvas.Top="15.54"/>
+
+		</Canvas>
+		<Canvas Margin="77.333,154.417,22.5,127.373" RenderTransformOrigin="0.5,0.5">
+			<Canvas.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="178.916"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Canvas.RenderTransform>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="44.376" Canvas.Top="0.083"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="55.751" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="66.834" Canvas.Top="0.083"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="78.376" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="89.751" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="100.834" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFE4F5A6" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="56.251" Canvas.Top="46.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="67.334" Canvas.Top="31.083"/>
+			<ed:RegularPolygon Fill="#FFD2F15D" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="78.876" Canvas.Top="46.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="22.917" Canvas.Top="31.003" Opacity="0.88"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="45.375" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFF1F9D1" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="34.292" Canvas.Top="46.463"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="22.417"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Top="0.08"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="11.542" Canvas.Top="15.54"/>
+
+		</Canvas>
+		<Canvas Margin="43.333,261.417,56.5,20.373" RenderTransformOrigin="0.5,0.5">
+			<Canvas.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="178.916"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Canvas.RenderTransform>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="44.376" Canvas.Top="0.083"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="55.751" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="66.834" Canvas.Top="0.083"/>
+			<ed:RegularPolygon Fill="#FF81D132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="78.376" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="89.751" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFCEF347" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="100.834" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="56.251" Canvas.Top="46.543"/>
+			<ed:RegularPolygon Fill="#FFC9E26C" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="67.334" Canvas.Top="31.083"/>
+			<ed:RegularPolygon Fill="#FFDEF0A0" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="78.876" Canvas.Top="46.543"/>
+			<ed:RegularPolygon Fill="#FFC6F519" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="22.917" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FF97B918" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="45.375" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="34.292" Canvas.Top="46.463"/>
+			<ed:RegularPolygon Fill="#FFE8F7AF" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="22.417"/>
+			<ed:RegularPolygon Fill="#FFE2F1A5" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Top="0.08"/>
+			<ed:RegularPolygon Fill="#FFD9F573" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="11.542" Canvas.Top="15.54" Opacity="0.88"/>
+			<ed:RegularPolygon Fill="#FFA0C128" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="44.376" Canvas.Top="0.083"/>
+
+		</Canvas>
+		<Canvas Margin="122.833,214.417,278,67.373" RenderTransformOrigin="0.5,0.5" Opacity="0.88" Grid.ColumnSpan="2">
+			<Canvas.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="178.916"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Canvas.RenderTransform>
+			<ed:RegularPolygon Fill="#FFD1F159" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="44.376" Canvas.Top="0.083"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="55.751" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="66.834" Canvas.Top="0.083"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="78.376" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="89.751" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="100.834" Canvas.Top="15.543"/>
+			<ed:RegularPolygon Fill="#FFE8F7B2" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="56.251" Canvas.Top="46.543"/>
+			<ed:RegularPolygon Fill="#FFBFDC55" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="67.334" Canvas.Top="31.083"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="78.876" Canvas.Top="46.543"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="22.917" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="45.375" Canvas.Top="31.003"/>
+			<ed:RegularPolygon Fill="#FFAED618" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="34.292" Canvas.Top="46.463"/>
+			<ed:RegularPolygon Fill="#FFBAD166" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="22.417"/>
+			<ed:RegularPolygon Fill="#FFE6F0C3" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Top="0.08"/>
+			<ed:RegularPolygon Fill="#FFAFD132" HorizontalAlignment="Left" Height="21.667" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="23.333" Canvas.Left="11.542" Canvas.Top="15.54"/>
+
+		</Canvas>
+		<Canvas Margin="-18.917,123.756,57,81.373">
+			<Canvas Height="91.871" Width="110.096">
+				<ed:RegularPolygon Fill="#FF7B9713" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="36.583" Canvas.Top="27.164" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FF99B433" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="18.211" Canvas.Top="54.538" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FF99B433" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="18.211" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FFC1DA5F" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="56.044" Canvas.Top="55.038"/>
+				<ed:RegularPolygon Fill="#FF99B433" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="54.669" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FFE1F595" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="72.763" Canvas.Top="27.164" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FFC5D682" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Top="27.414" Stroke="White"/>
+			</Canvas>
+			<Canvas Height="91.871" Canvas.Left="75.821" Canvas.Top="53" Width="110.096">
+				<ed:RegularPolygon Fill="#FF99B433" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="36.583" Canvas.Top="27.164" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FF99B433" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="18.211" Canvas.Top="54.538" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FFE1EEB1" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="18.211" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FFAABF5C" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="56.044" Canvas.Top="55.038"/>
+				<ed:RegularPolygon Fill="#FFABD410" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="54.669" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FF99B433" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Left="72.763" Canvas.Top="27.164" Stroke="White"/>
+				<ed:RegularPolygon Fill="#FFC7E84D" HorizontalAlignment="Left" Height="37.333" InnerRadius="1" PointCount="6" Stretch="Fill" VerticalAlignment="Top" Width="37.333" Canvas.Top="27.414" Stroke="White"/>
+			</Canvas>
+
+		</Canvas>
+        <Button Content="Sign In" Grid.Column="1"  Click="SignIn"  Style="{StaticResource ButtonStyle}" HorizontalAlignment="Left" Margin="58,274,0,0" VerticalAlignment="Top" Width="134" Height="35"/>
+
+    </Grid>
+</Window>
